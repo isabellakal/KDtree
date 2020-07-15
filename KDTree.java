@@ -1,5 +1,3 @@
-//package assignments2019.a3posted;
-//ISABELLA KALARICKAL MCGILL ID: 260834092 
 import java.util.ArrayList;
 import java.util.Iterator;
 
@@ -90,7 +88,7 @@ public class KDTree implements Iterable<Datum>{
 			 *  the above fields.
 			 */
 
-			//   ADD YOUR CODE BELOW HERE	
+			//	
 			int numOfCoord = datalist.length;
 			//Datum[] highChildTree = new Datum[numOfCoord];
 			//Datum[] lowChildTree = new Datum[numOfCoord];
@@ -190,7 +188,7 @@ public class KDTree implements Iterable<Datum>{
 				this.highChild = new KDNode(highChildTree);
 
 			}
-			//   ADD YOUR CODE ABOVE HERE
+			//   
 
 		}
 		
@@ -251,11 +249,11 @@ public class KDTree implements Iterable<Datum>{
 
 		}
 
-		//   ADD YOUR CODE ABOVE HERE
+		//   
 
 
 
-		// -----------------  KDNode helper methods (might be useful for debugging) -------------------
+		// -----------------  KDNode helper methods (useful for debugging) -------------------
 
 		public int height() {
 			if (this.leaf) 	
@@ -310,7 +308,7 @@ public class KDTree implements Iterable<Datum>{
 
 	private class KDTreeIterator implements Iterator<Datum> {
 
-		//   ADD YOUR CODE BELOW HERE
+		//  
 
 		private ArrayList<Datum> datumList;
 		int counter;
